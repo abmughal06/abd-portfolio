@@ -1,5 +1,3 @@
-
-
 export const data = {
     title: "Abdullah Bin Latif",
     subtitle: "Flutter & React Developer",

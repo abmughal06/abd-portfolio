@@ -12,7 +12,7 @@ export default function Navbar() {
                             py-4
                             md:py-10
                             md:px-10
-                            px-5
+                            px-20
                             text-lg text-gray-700
                             bg-white">
                 <Link to="">
@@ -20,7 +20,7 @@ export default function Navbar() {
                 </Link>
                 <div className="sections-links">
                     <Link to="#about-me" className="pr-7" smooth>About</Link>
-                    <Link to="#projects_view" className="pr-7" smooth>Projects</Link>
+                    <Link to="#projects" className="pr-7" smooth>Projects</Link>
                     <Link to="#contact" smooth>Contact</Link>
                 </div>
             </div>

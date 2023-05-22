@@ -11,11 +11,11 @@ module.exports = {
       xl: '1440px',
     },
     colors: {
-      primary:"#25c19b",
-      background: "#1e2a2d",
-      background2:"#063831",
+      primary:"#178582",
+      background: "#0A1828",
+      background2:"#BFA181",
       text:"#efebe2",
-      dark:"#1d1d1d"
+      dark:"#0A1828"
     },
     fontFamily: {
       sans: ['Graphik', 'sans-serif'],
