@@ -18,7 +18,7 @@ import aws from "../assets/skill-icons/aws.png";
 export default function About() {
   return (
     <section id="about-me" className="lg:pt-32 pt-14 flex flex-col lg:flex-row lg:mx-48 mx-7">
-      <div className="grid grid-rows-3 grid-flow-col justify-center lg:gap-x-32 lg:gap-y-20 gap-20 lg:mr-5 lg:w-1/2 w-full">
+      <div className="grid grid-rows-3 grid-flow-col justify-center lg:gap-x-20 md:gap-x-16 gap-y-20 gap-20 lg:mr-5 lg:w-1/2 w-full">
         <img
           src={flutter}
           alt="flutter icon"
