@@ -3,13 +3,13 @@ import img from "../assets/3.png";
 
 export default function Contact() {
   return (
-    <section id="Contact" className="flex flex-row pt-32 px-48">
-      <div className="w-1/2">
+    <section id="Contact" className="flex flex-col lg:flex-row lg:pt-32 pt-12 lg:px-48 px-8">
+      <div className="lg:w-1/2 w-full">
         <img src={img} alt="contact me" />
       </div>
 
-      <div class="ml-10 w-1/2">
-        <form action="#" class="space-y-8">
+      <div class="lg:ml-10 lg:w-1/2 w-full lg:pt-0 pt-12">
+        <form action="https://formsubmit.co/abmughal06@gmail.com" method="POST" className="space-y-8">
           <div>
             <label
               for="email"
@@ -56,7 +56,8 @@ export default function Contact() {
           </div>
           <button
             type="submit"
-            class="py-3 px-5 text-sm font-medium text-center text-white rounded-lg bg-primary sm:w-fit hover:bg-primary-800 focus:ring-4 focus:outline-none focus:ring-primary-300 dark:bg-primary-600 dark:hover:bg-primary-700 dark:focus:ring-primary-800"
+            onSubmit={{}}
+            class="py-3 px-5 text-sm font-medium text-center text-white rounded-lg bg-primary sm:w-fit hover:bg-primary-800 focus:ring-4  hover:bg-background hover:border hover:border-primary hover:scale-105 hover:text-primary transition duration 2000ms focus:outline-none focus:ring-primary-300 dark:bg-primary-600 dark:hover:bg-primary-700 dark:focus:ring-primary-800"
           >
             Send message
           </button>

@@ -4,11 +4,3 @@
 @tailwind utilities;
 
 /* css for navbar */
-
-body {
-    margin: 0px;
-    padding: 0px;
-    background-color: #0A1828;
-    font-family: Verdana;
-    color: #efebe2;
-}
